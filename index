@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="task0001.css">
+<meta charset="utf-8"/>
+	<title>Task0001</title>
+</head>
+<body>
+	<header class="header">
+		<div class="nav-wrap">
+			<h1 class="logo">
+				<a href="index.html">Ivanlee</a>
+			</h1>
+			<nav class="nav">
+				<ul>
+					<li><a href="">首页</a></li>
+					<li><a href="">作品</a></li>
+					<li><a href="">文章</a></li>
+					<li><a href="">关于</a></li>
+				</ul>
+			</nav>
+		</div>
+		<a class="github-logo" href="" target="_blank"><img src="icon-github.png"></a>
+	</header>
+	<div class="center">
+		<div class="banner">
+			<img src="banner-bg.jpg">
+			<div class="text-wrap">
+				<div class="text">
+					<h2>这是一个标题</h2>
+					<p>这是一个段落，这是一个段落，这是一个段落，这是一个段落，这是一个段落，这是一个段落，这是一个段落，这是一个段落，这是一个段落，这是一个段落。</p>
+				</div>	
+			</div>
+		</div>
+		<div class="index-content">
+			<article class="post post-left">
+				<img src="post-1.png">
+				<p>这有一段文字，这有一段文字，这有一段文字，这有一段文字，这有一段文字，这有一段文字，这有一段文字，这有一段文字，这有一段文字，这有一段文字，这有一段文字，这有一段文字，这有一段文字，这有一段文字，这有一段文字，这有一段文字，这有一段文字，这有一段文字，</p>
+			</article>
+			<article class="post post-left">
+				<img src="post-2.png">
+				<p>这有一段文字，这有一段文字，这有一段文字，</p>
+			</article>
+			<article class="post">
+				<img src="post-3.png">
+				<p>这有一段文字，这有一段文字，这有一段文字，</p>
+			</article>
+		</div>
+		<div class="information">
+			<img src="jieyi.jpg">
+			<h2>Hi, I'm IVANLEE</h2>
+			<p>我一定要学好前端！我一定要学好前端！我一定要学好前端！我一定要学好前端！我一定要学好前端！我一定要学好前端！我一定要学好前端！我一定要学好前端！我一定要学好前端！我一定要学好前端！我一定要学好前端！我一定要学好前端！</p>
+		</div>
+	</div>
+	<div class="footer">
+		<nav class="footer-nav">
+			<ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="blog.html">文章</a></li>
+                <li><a href="gallery.html">作品</a></li>
+                <li><a href="about.html">关于</a></li>
+            </ul>
+		</nav>
+		<div class="link">
+			<div class="link-item">
+				<h2 class="link-title">学习资料</h2>
+				<ul class="link-content">
+   					<li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+				</ul>
+			</div>
+			<div class="link-item">
+				<h2 class="link-title">学习资料</h2>
+				<ul class="link-content">
+   					<li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+				</ul>
+			</div>
+			<div class="link-item">
+				<h2 class="link-title">学习资料</h2>
+				<ul class="link-content">
+   					<li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+				</ul>
+			</div>
+			<div class="link-item">
+				<h2 class="link-title">学习资料</h2>
+				<ul class="link-content">
+   					<li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+				</ul>
+			</div>
+			<div class="link-item">
+				<h2 class="link-title">学习资料</h2>
+				<ul class="link-content">
+   					<li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+                    <li><a href="https://github.com/ecomfe/spec">Baidu spec</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>版权信息</p>
+			<a href="http://www.gihub.com" target="_blank"><img src="icon-github.png"></a>
+		</div>
+	</div>
+</body>
+</html>
