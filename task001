@@ -1,0 +1,187 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Microsoft Yahei,sans-serif;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+body{
+    min-width: 980px;
+    background: #e2e2e2;
+}
+
+ul,li {
+    list-style: none;
+}
+
+/*header*/
+.header{
+	width: 100%;
+	height: 80px;
+	background-color: #47456D;
+	position: relative;
+}
+.nav-wrap{
+	position: relative;
+	width: 980px;
+	height: 80px;
+	margin: 0 auto;
+}
+.logo{
+	position: absolute;
+	bottom: 5px;
+}
+.nav{
+	width: 100%;
+	position: absolute;
+	bottom: 5px;
+}
+.nav ul{
+	float: right;
+	right: 10px;
+}
+.nav ul li{
+	float: left;
+	font:14px SimSun sans-serif;
+	margin-left: 28px;
+}
+.github-logo{
+	position: absolute;
+	right: 10px;
+	bottom: 0;
+}
+/* center*/
+.banner img{
+	width: 100%;
+	height: 500px;
+}
+.text-wrap{
+	position: relative;
+	width: 980px;
+	margin: 0 auto;
+}
+.text{
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    font-size: 12px;
+    background: -moz-linear-gradient(top, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.5) 75%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.7)), color-stop(75%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.5) 75%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.5) 75%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.5) 75%,rgba(255,255,255,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.5) 75%,rgba(255,255,255,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+    padding: 10px 10px 30px;
+}
+.text h2{
+	text-align: right;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.text p{
+	line-height: 150%;
+}
+.index-content img{
+    margin: 10px 10px 15px;
+    width: 300px;
+    height: 180px;
+}
+.post{
+    float: left;
+    width: 320px;
+    background-color: #FFF; 
+    padding-bottom: 10000px;/*三个模块高度保持一致的关键*/
+    margin: 10px 0 -10000px;
+}
+.post-left{
+    margin-right:10px;
+}
+.index-content{
+    overflow: hidden;
+    width: 980px;
+    margin:0 auto;
+}
+.index-content p{
+    margin: 15px 30px 25px;
+    font-size: 12px;
+    text-indent: 2em;
+    line-height: 170%;
+}
+.information{
+    background-color: #fff;
+    height: 500px;
+    text-align: center;
+    margin-top: 100px;
+}
+.information img{
+    border-radius: 80px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.information h2{
+    font-size: 20px;
+    font-family: Century;
+    margin-bottom: 20px;
+}
+.information p{
+    width: 600px;
+    margin: 0 auto;
+    font-size: 14px;
+    text-indent: 2em;
+    text-align: left;
+    line-height: 170%;
+}
+.footer{
+    background: #000;
+    font-size: 12px;
+    clear: both;
+}
+.footer-nav ul{
+    float: left;
+    position: relative;
+    left: 50%;
+    margin: 10px auto;
+}
+.footer-nav li{
+    float: left;
+    margin: 0 12px;
+    position: relative;
+    right: 50%; /*这里有一个问题！！！！！*/
+}
+.link{
+    clear: left;
+    width: 980px;
+    overflow: hidden;/*这个不清楚footer会受到影响*/
+    margin: 0 auto 100px;
+    border-top: 1px solid #e2e2e2;
+
+}
+.link-item{
+    float: left;
+    width: 196px;
+}
+.link-title {
+    margin: 40px 0 30px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.link-content {
+    line-height: 170%;
+}
+
+.link-content li :hover {
+    text-decoration: underline;
+}
+.copyright {
+    text-align: center;
+}
+
+.copyright p {
+    color: #fff;
+    margin-bottom: 20px;
+}
